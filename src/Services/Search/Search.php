@@ -1,11 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Services\Search;
+namespace BitrixManticore\Services\Search;
 
 use Bitrix\Main\Context;
 use \Bitrix\Main\Loader;
-use App\Services\Routing\Response;
 use Manticoresearch\Client as ManticoreClient;
 use Manticoresearch\Search as ManticoreSearch;
 use Manticoresearch\Index as ManticoreIndex;

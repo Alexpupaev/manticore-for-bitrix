@@ -1,10 +1,10 @@
 <?
 
-namespace App\Controllers;
+namespace BitrixManticore\Controllers;
 
 use Bitrix\Main\HttpRequest;
-use App\Services\Search\Search;
-use App\Services\Routing\Response;
+use BitrixManticore\Services\Search\Search;
+use BitrixManticore\Services\Routing\Response;
 
 class SearchController {
 
