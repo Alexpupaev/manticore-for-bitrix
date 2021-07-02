@@ -1,0 +1,14 @@
+{
+  "name": "letsrock/manticore",
+  "license": "proprietary",
+  "minimum-stability": "alpha",
+  "authors": [
+    {
+      "name": "Leonid Titov",
+      "email": "shredder139@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
