@@ -1,14 +1,20 @@
 {
-  "name": "letsrock/manticore",
-  "license": "proprietary",
-  "minimum-stability": "alpha",
-  "authors": [
-    {
-      "name": "Leonid Titov",
-      "email": "shredder139@gmail.com"
+    "name": "letsrock/manticore",
+    "license": "proprietary",
+    "minimum-stability": "alpha",
+    "authors": [
+      {
+        "name": "Alexander Matrosov",
+        "email": "010321919377@bk.ru"
+      }
+    ],
+    "require": {
+        "psr/log": "^1.1",
+        "php-di/php-di": "^6.3",
+        "manticoresoftware/manticoresearch-php": "^1.6"
+    },
+    "autoload": {
+      "classmap": ["src"]
     }
-  ],
-  "autoload": {
-    "classmap": ["src"]
-  }
 }
+  
